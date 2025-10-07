@@ -16,7 +16,7 @@ This project was originally developed as part of a cloud and cluster computing a
 
 ---
 
-## � Tech Stack
+## Tech Stack
 
 | Component | Description |
 |-----------|-------------|
@@ -28,7 +28,7 @@ This project was originally developed as part of a cloud and cluster computing a
 ---
 
 
-## � How It Works
+## How It Works
 
 1. **MPI Initialization**  
    The script uses `mpi4py` to divide the input file into equal byte-sized chunks based on the number of processes.
