@@ -11,4 +11,4 @@ module load mpi4py/3.1.4
 INPUT_FILE="${1:-mastodon-144g.ndjson}" 
 
 echo "Processing file: $INPUT_FILE"
-time mpiexec -n $SLURM_NTASKS python CCC_A1.py -i $INPUT_FILE
+time mpiexec -n $SLURM_NTASKS python sentiment_mpi_analysis.py -i $INPUT_FILE
